@@ -1,0 +1,336 @@
+@media screen {
+  @font-face {
+    font-display: swap;
+    font-weight: 200;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-light.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-light.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 200;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-light.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-light.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 200;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-light.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-light.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 200;
+    font-style: italic;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-light-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-light-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 200;
+    font-style: italic;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-light-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-light-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 200;
+    font-style: italic;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-light-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-light-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 300;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-semi-light.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-semi-light.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 300;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-semi-light.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-semi-light.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 300;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-semi-light.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-semi-light.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 300;
+    font-style: italic;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-semi-light-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-semi-light-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 300;
+    font-style: italic;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-semi-light-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-semi-light-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 300;
+    font-style: italic;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-semi-light-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-semi-light-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 400;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-regular.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-regular.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 400;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-regular.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-regular.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 400;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-regular.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-regular.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic.italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 500;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-medium.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-medium.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 500;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-medium.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-medium.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 500;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-medium.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-medium.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-style: italic;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-medium-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-medium-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-style: italic;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-medium-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-medium-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-style: italic;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-medium-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-medium-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 700;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-bold.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-bold.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 700;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-bold.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-bold.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 700;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-bold.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-bold.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: italic;
+    unicode-range: U+0370-03FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-bold-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-greek-bold-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: italic;
+    unicode-range: U+0400-04FF;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-bold-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-cyrillic-bold-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+
+  @font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: italic;
+    src: url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-bold-italic.woff2")
+        format("woff2"),
+      url("https://www.volvocars.com/static/shared/fonts/volvo-novum/volvo-novum-bold-italic.woff")
+        format("woff");
+    font-family: "Volvo Novum";
+  }
+}
